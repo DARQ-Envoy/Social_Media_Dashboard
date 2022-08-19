@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.heading-grey-rule {
+  height: 0.06rem;
+  width: 100%;
+}
+
+.bold-sta {
+  color: #1e202a;
+}
+
+.modes .out-toggle {
+  height: 26px;
+  width: 43px;
+  border-radius: 38px;
+  cursor: pointer;
+}
+
+.modes .out-toggle .in-toggle {
+  height: 100%;
+  border-radius: 50%;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.darkmode {
+  background-color: #1e202a;
+}
+
+.bg-linear {
+  background: -webkit-gradient(linear, left top, right top, from(#378fe6), to(#3eda82));
+  background: linear-gradient(to right, #378fe6, #3eda82);
+}
+
+#status .follow {
+  letter-spacing: 2px;
+}
+
+#status .dir-icon {
+  height: 8px;
+  width: 13px;
+}
+
+#status .box-face {
+  border-top: 6px solid #198ff5;
+}
+
+#status .box-twitter {
+  border-top: 6px solid #1ca0f2;
+}
+
+#status .box-instagram::before {
+  width: 100%;
+  display: block;
+  height: 7px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: -webkit-gradient(linear, left top, right top, from(#fdc468), to(#df4996));
+  background: linear-gradient(to right, #fdc468, #df4996);
+}
+
+#status .box-youtube {
+  border-top: 6px solid #c4032a;
+}
+
+.text-blue {
+  color: #8b97c6;
+}
+
+.s-box {
+  background-color: #e8ebf8;
+  width: 90%;
+  border-radius: 9px;
+  margin: 20px 10px;
+}
+
+.over-box {
+  background-color: #e8ebf8;
+  border-radius: 10px;
+}
+
+.BOX:hover {
+  cursor: pointer;
+  background-color: #f3f4fc;
+}
+
+.dark-hover {
+  background-color: #252a41;
+}
+
+.dark-hover:hover {
+  background-color: #313853;
+}
+/*# sourceMappingURL=styling.css.map */
